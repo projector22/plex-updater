@@ -1,4 +1,4 @@
-# Lamp Tools
+# Plex Updater
 
 ## v0.1.1
 
