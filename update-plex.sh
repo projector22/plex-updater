@@ -12,6 +12,8 @@ cd ~/Downloads
 mv /media/disk3/plexmediaserver*.deb ~/Downloads
 
 sudo dpkg -i plexmediaserver*.deb
+sudo service plexmediaserver stop
+sudo service plexmediaserver start
 
 echo "Removing downloaded Plex installer"
 
