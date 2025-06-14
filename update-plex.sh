@@ -9,7 +9,7 @@ cd ~/Downloads
 
 # Move the downloaded update file from either disk 2 or 3 to this directory
 # mv /media/disk2/plexmediaserver*.deb ~/Downloads
-mv /media/disk3/plexmediaserver*.deb ~/Downloads
+mv /media/disk3/plexmediaserver*.deb ~/Downloads || exit 1
 
 sudo dpkg -i plexmediaserver*.deb
 sudo service plexmediaserver stop
